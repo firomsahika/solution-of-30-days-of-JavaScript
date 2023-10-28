@@ -129,7 +129,7 @@ let country_list = [];
 for (let i = 0; i < countries.length; i++) {
   let country = [];
   country.push(countries[i])
-  country.push(countries[i].substring(0, 3).toLocaleUpperCase())
+  country.push(countries[i].substring(0, 3).toUpperCase())
   country.push(countries[i].length)
 
   country_list.push(country);
