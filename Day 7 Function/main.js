@@ -169,6 +169,16 @@ function evensAndOdds(number) {
 evensAndOdds(100);
 
 // 14
+const sum = (...args) => {
+  let total = 0
+  for(const number of args){
+    total +=number
+  }
+  return total
+}
 
+console.log(sum(1, 2, 3))
+
+//  15
 
 
