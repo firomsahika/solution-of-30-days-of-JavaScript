@@ -1,0 +1,1 @@
+const firstName = "Firomsa",lastName = "Hika",maritalStatus="unmarried",country = "Ethio",age = 88;
